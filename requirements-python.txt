@@ -1,0 +1,4 @@
+# Script 17 (réplica SBM). Versiones con las que se generó el output de referencia.
+numpy==2.5.3
+scipy==1.18.1
+networkx==3.7

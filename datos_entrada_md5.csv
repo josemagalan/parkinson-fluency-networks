@@ -1,0 +1,89 @@
+ruta_desde_code,distribuible,bytes,md5
+(correo privado; no se distribuye),no,289792,a5b1e41bf1fd678d1a99803a3d93506b
+../datos sexo_edad_parkinson_control.csv,por decidir (datos clínicos/derechos),447,45b9ff62f25a756c63076afc70e989fd
+../parkinson/Sequences.R,por decidir (datos clínicos/derechos),16644,90cca4fc4b3002698e9049574a157032
+../parkinson/corePeriphery.R,por decidir (datos clínicos/derechos),23419,bde336513cd3cf30e208a5903a545c84
+../parkinson/data/AoA_sustantivos.xlsx,por decidir (datos clínicos/derechos),905839,0dba4c87835e2a447fd0fc63d7f6de4b
+../parkinson/data/AoA_verbos.xlsx,por decidir (datos clínicos/derechos),399234,780c140532e94833fbe6a46e095718f9
+../parkinson/data/Buscador frecuencia oral Subtlex-Esp.xlsx,por decidir (datos clínicos/derechos),3582597,6abddc471b9892be97c6f774c273084e
+../parkinson/data/FLUIDEZ PARKINSON.xlsx,por decidir (datos clínicos/derechos),33475,23c416d3cdf37581b2287658c2eff572
+../parkinson/data/Lexesp data.xlsx,por decidir (datos clínicos/derechos),239573,5953ecdb20ef5788f3f020f0178958c2
+../parkinson/data/buscador motor content.xlsx,por decidir (datos clínicos/derechos),286311,d9b121f259073bc1265962e53580d900
+../parkinson/data/datos sexo_edad_parkinson_control.csv,por decidir (datos clínicos/derechos),341,efd9b79f6fafc87eaf2b7b7002a805d6
+../parkinson/data/datos_sexo_edad_controles.xlsx,por decidir (datos clínicos/derechos),9663,a84fda6f9d436ecaf8246eb675d43822
+../parkinson/hub and spoke model/directed/csvs/graphAcciones_directedcontrol.graphml.csv,por decidir (datos clínicos/derechos),4349,f43f41a99da4c0bf4a7d7411c8f3ebd9
+../parkinson/hub and spoke model/directed/csvs/graphAcciones_directedoff.graphml.csv,por decidir (datos clínicos/derechos),2528,987c9e00db13326e5acece928f4bb509
+../parkinson/hub and spoke model/directed/csvs/graphAcciones_directedon.graphml.csv,por decidir (datos clínicos/derechos),2967,f47f97dc5d8dc5878ea5cef49fe92c61
+../parkinson/hub and spoke model/directed/csvs/graphAnimales_directedcontrol.graphml.csv,por decidir (datos clínicos/derechos),2631,ef6d65544a3f8ba2749f35f036871006
+../parkinson/hub and spoke model/directed/csvs/graphAnimales_directedoff.graphml.csv,por decidir (datos clínicos/derechos),2203,71fe200a3001b1c948f9fde1d52ea6da
+../parkinson/hub and spoke model/directed/csvs/graphAnimales_directedon.graphml.csv,por decidir (datos clínicos/derechos),2374,d0f9261c20f5d3bfd383e44dbd5b868e
+../parkinson/hub and spoke model/directed/csvs/graphFpalabra_directedcontrol.graphml.csv,por decidir (datos clínicos/derechos),3969,0ff70cbc7d718e46dfe8cf9e589d8abc
+../parkinson/hub and spoke model/directed/csvs/graphFpalabra_directedoff.graphml.csv,por decidir (datos clínicos/derechos),2458,3cc83827b072a8b5632e4a2f20e7deae
+../parkinson/hub and spoke model/directed/csvs/graphFpalabra_directedon.graphml.csv,por decidir (datos clínicos/derechos),2852,be1af5fa5029f5def8f359bcfe61895b
+../parkinson/hub and spoke model/undirected/csvs/graphAccionescontrol.graphml.csv,por decidir (datos clínicos/derechos),4357,cc43afaafd24cb604974a944a9ef9985
+../parkinson/hub and spoke model/undirected/csvs/graphAccionesoff.graphml.csv,por decidir (datos clínicos/derechos),2528,fee7145c94b28f8335803a19e34a60f8
+../parkinson/hub and spoke model/undirected/csvs/graphAccioneson.graphml.csv,por decidir (datos clínicos/derechos),2967,af8ce3f81c882f84b0b15a391af199ae
+../parkinson/hub and spoke model/undirected/csvs/graphAnimalescontrol.graphml.csv,por decidir (datos clínicos/derechos),2653,6e6f5a8923dbe6e1a5bb28cae4ba29bb
+../parkinson/hub and spoke model/undirected/csvs/graphAnimalesoff.graphml.csv,por decidir (datos clínicos/derechos),2203,22818b8e0ea77c95103ec4e87b7ecd52
+../parkinson/hub and spoke model/undirected/csvs/graphAnimaleson.graphml.csv,por decidir (datos clínicos/derechos),2374,3b0635f25cbbfb516d7ffb86a9e2d54b
+../parkinson/hub and spoke model/undirected/csvs/graphFpalabracontrol.graphml.csv,por decidir (datos clínicos/derechos),3969,69c3fe3f210862a6e1cfa5da1e8c4604
+../parkinson/hub and spoke model/undirected/csvs/graphFpalabraoff.graphml.csv,por decidir (datos clínicos/derechos),2458,91ce63802285df620ed52415d526cf5b
+../parkinson/hub and spoke model/undirected/csvs/graphFpalabraon.graphml.csv,por decidir (datos clínicos/derechos),2852,abf606c68e61cf771a120daa4fbccb1f
+../parkinson/mainParkinson.R,por decidir (datos clínicos/derechos),8185,5e2a23c834f96c1bcf971a4147a644a4
+../parkinson/mainParkinson_Dirigidas.R,por decidir (datos clínicos/derechos),7948,24fe46cd341c8c6292df5c5b1d9d6d87
+../parkinson/naiveBayes.R,por decidir (datos clínicos/derechos),5804,9635f8eeb29a93a9ed33d7a691a88cc9
+../parkinson/networks/graphAcciones_directedcontrol.graphml,por decidir (datos clínicos/derechos),52313,8e586b1bc51d1b9b7cf5ddff5017795c
+../parkinson/networks/graphAcciones_directedoff.graphml,por decidir (datos clínicos/derechos),29889,ed2dd79409e4742cbf7cac958d510ea3
+../parkinson/networks/graphAcciones_directedon.graphml,por decidir (datos clínicos/derechos),36631,03070230ac6fb4ea46148e331d28701e
+../parkinson/networks/graphAccionescontrol.graphml,por decidir (datos clínicos/derechos),340031,7063473b5ba672c042822e2e7a51f718
+../parkinson/networks/graphAccionesoff.graphml,por decidir (datos clínicos/derechos),128830,9b07e867da1a9f8db52819c16c318ffa
+../parkinson/networks/graphAccioneson.graphml,por decidir (datos clínicos/derechos),183594,06d1fe0c6f8c133ab690aa919750db67
+../parkinson/networks/graphAnimales_directedcontrol.graphml,por decidir (datos clínicos/derechos),46938,b435fbffb10f6b78564dedc95c7b453e
+../parkinson/networks/graphAnimales_directedoff.graphml,por decidir (datos clínicos/derechos),34706,a45f25ed298813273c294809fbb646f1
+../parkinson/networks/graphAnimales_directedon.graphml,por decidir (datos clínicos/derechos),39445,206920e4693aaf84f39ede4b67fc6d92
+../parkinson/networks/graphAnimalescontrol.graphml,por decidir (datos clínicos/derechos),301030,f0c7b021b3668d88cfd109d2bea9aecb
+../parkinson/networks/graphAnimalesoff.graphml,por decidir (datos clínicos/derechos),185508,3714aa692414a59ff02e57857b537a10
+../parkinson/networks/graphAnimaleson.graphml,por decidir (datos clínicos/derechos),228215,14545c1cc732ddc3c2608b313141fa74
+../parkinson/networks/graphFpalabra_directedcontrol.graphml,por decidir (datos clínicos/derechos),42617,0f108885183a92837ecb6ac1f391744a
+../parkinson/networks/graphFpalabra_directedoff.graphml,por decidir (datos clínicos/derechos),23953,909a01d197fe64943c2d0862d2b114cc
+../parkinson/networks/graphFpalabra_directedon.graphml,por decidir (datos clínicos/derechos),29599,b7c75bf0f9167766baf361182905460d
+../parkinson/networks/graphFpalabracontrol.graphml,por decidir (datos clínicos/derechos),201973,22b3bf6d32280d1d4d9116b183155051
+../parkinson/networks/graphFpalabraoff.graphml,por decidir (datos clínicos/derechos),72958,1c340a27f0e7484e5b0f02171711d524
+../parkinson/networks/graphFpalabraon.graphml,por decidir (datos clínicos/derechos),112385,279ea3d00de4c3e3ede588ac2a48719b
+../parkinson/processing.R,por decidir (datos clínicos/derechos),21929,e722697f1a2735d7afae0f7b662db16b
+../parkinson/results/FpalabraClasificacion.arff,por decidir (datos clínicos/derechos),52322,80d08f322cef6678de8d0e3636863e62
+../parkinson/results/FpalabraWeka.arff,por decidir (datos clínicos/derechos),21719,b62a7a83e04a358c79da427d17f089e9
+../parkinson/results/accionesClasificacion.arff,por decidir (datos clínicos/derechos),59177,70fee84aea1008281bfd09024c11bd6c
+../parkinson/results/accionesWeka.arff,por decidir (datos clínicos/derechos),27627,e9e395c376dad340c0cda4b177d4e9f7
+../parkinson/results/animalesClasificacion.arff,por decidir (datos clínicos/derechos),32224,c37abf33dd23d3190feef8f505375e22
+../parkinson/results/animalesWeka.arff,por decidir (datos clínicos/derechos),22939,aedc5a658be6510328ac1f721f2e88a1
+../parkinson/results/graphAcciones_directedcontrol.graphml,por decidir (datos clínicos/derechos),52313,8e586b1bc51d1b9b7cf5ddff5017795c
+../parkinson/results/graphAcciones_directedoff.graphml,por decidir (datos clínicos/derechos),29889,ed2dd79409e4742cbf7cac958d510ea3
+../parkinson/results/graphAcciones_directedon.graphml,por decidir (datos clínicos/derechos),36631,03070230ac6fb4ea46148e331d28701e
+../parkinson/results/graphAccionescontrol.graphml,por decidir (datos clínicos/derechos),340031,7063473b5ba672c042822e2e7a51f718
+../parkinson/results/graphAccionesoff.graphml,por decidir (datos clínicos/derechos),128830,9b07e867da1a9f8db52819c16c318ffa
+../parkinson/results/graphAccioneson.graphml,por decidir (datos clínicos/derechos),183594,06d1fe0c6f8c133ab690aa919750db67
+../parkinson/results/graphAnimales_directedcontrol.graphml,por decidir (datos clínicos/derechos),46938,b435fbffb10f6b78564dedc95c7b453e
+../parkinson/results/graphAnimales_directedoff.graphml,por decidir (datos clínicos/derechos),34706,a45f25ed298813273c294809fbb646f1
+../parkinson/results/graphAnimales_directedon.graphml,por decidir (datos clínicos/derechos),39445,206920e4693aaf84f39ede4b67fc6d92
+../parkinson/results/graphAnimalescontrol.graphml,por decidir (datos clínicos/derechos),301030,f0c7b021b3668d88cfd109d2bea9aecb
+../parkinson/results/graphAnimalesoff.graphml,por decidir (datos clínicos/derechos),185508,3714aa692414a59ff02e57857b537a10
+../parkinson/results/graphAnimaleson.graphml,por decidir (datos clínicos/derechos),228215,14545c1cc732ddc3c2608b313141fa74
+../parkinson/results/graphFpalabra_directedcontrol.graphml,por decidir (datos clínicos/derechos),42617,0f108885183a92837ecb6ac1f391744a
+../parkinson/results/graphFpalabra_directedoff.graphml,por decidir (datos clínicos/derechos),23953,909a01d197fe64943c2d0862d2b114cc
+../parkinson/results/graphFpalabra_directedon.graphml,por decidir (datos clínicos/derechos),29599,b7c75bf0f9167766baf361182905460d
+../parkinson/results/graphFpalabracontrol.graphml,por decidir (datos clínicos/derechos),201973,22b3bf6d32280d1d4d9116b183155051
+../parkinson/results/graphFpalabraoff.graphml,por decidir (datos clínicos/derechos),72958,1c340a27f0e7484e5b0f02171711d524
+../parkinson/results/graphFpalabraon.graphml,por decidir (datos clínicos/derechos),112385,279ea3d00de4c3e3ede588ac2a48719b
+../parkinson/results/procesadoCompletoWeka.arff,por decidir (datos clínicos/derechos),65957,c88dad167cab63f71a88f68694dffd61
+../parkinson/results/procesadoControlOff.arff,por decidir (datos clínicos/derechos),46063,4278f17053aca639a0dda7013f054194
+../parkinson/results/tabla redes dirigidas.xlsx,por decidir (datos clínicos/derechos),9610,c0cf955c2e39ca0c89d165b6ddea5ae9
+../parkinson/results/tabla redes no dirigidas.xlsx,por decidir (datos clínicos/derechos),9561,08802d09a06150d8c3c73ac47ce2d825
+../parkinson/resultsCorePeriphery/results_table.xlsx,por decidir (datos clínicos/derechos),11290,0adcb465a3b4a104952efa477eeff530
+../parkinson/resultsCorePeriphery/tabla_resumen_GLM.xlsx,por decidir (datos clínicos/derechos),26111,79446024ebda12b6e3be168481bb7fed
+../parkinson/resultsCorePeriphery/tabla_resumen_corePeriphery.xlsx,por decidir (datos clínicos/derechos),17772,a19d064234944f76000a23d9cef97918
+historial/20261022_tablas_core_periphery_previas/tabla1_secuencia_usuario.png,por decidir (datos clínicos/derechos),142106,c6e6b699c82a4742cfa84e3f501a0e52
+historial/20261022_tablas_core_periphery_previas/tabla2_coocurrencia_usuario.png,por decidir (datos clínicos/derechos),149573,645d98799d2d3ed15962e379540fa0a4
+historial/20261022_tablas_core_periphery_previas/texto_aportado.md,por decidir (datos clínicos/derechos),2932,b58ed0c1afbf4ce639763b13fffff5ad
+historial/20261022_tablas_core_periphery_previas/transcripcion.csv,por decidir (datos clínicos/derechos),1793,536a74db8edc313eb8383f3ff567a0d7
+historial/elena_20261022_v3/datos sexo_edad_parkinson_control.csv,por decidir (datos clínicos/derechos),447,45b9ff62f25a756c63076afc70e989fd
