@@ -1,6 +1,6 @@
 # Verbal fluency networks in Parkinson's disease on and off medication
 
-Analysis code for the article *Network-based analysis of semantic, phonological, and action fluency in Parkinson's disease on/off medication* (*International Journal of Language & Communication Disorders*; see [Citation](#citation)).
+Analysis code for the article *Network-based analysis of semantic, phonological, and action fluency in Parkinson's disease on/off medication
 
 What the code does:
 
@@ -11,7 +11,7 @@ What the code does:
 5. **Classification.** It evaluates penalised multinomial regression, random forest and TabPFN v2 with leave-one-participant-out cross-validation.
 6. **Serial position.** It produces the psycholinguistic profiles by response position (Figure 4).
 
-The raw data are read from the authors' original processing pipeline (folder `parkinson/`, 2023–2024). Some scripts also reproduce and audit that pipeline. The data are **not** included (see [Data](#data)).
+The raw data are read from the authors' original processing pipeline. Some scripts also reproduce and audit that pipeline. The data are **not** included .
 
 ## Repository layout
 
@@ -127,10 +127,10 @@ Code: [MIT](LICENSE). `vendor/core_periphery_sbm` keeps its Apache-2.0 licence. 
 
 ## Citation
 
-Herrera, E., Galán, J. M., Ahedo, V., & Suárez Coalla, M. P. ([year]). Network-based analysis of semantic, phonological, and action fluency in Parkinson's disease on/off medication. *International Journal of Language & Communication Disorders*, [volume(issue)], [pages]. https://doi.org/[DOI]
+Herrera, E., Galán, J. M., Ahedo, V., & Suárez Coalla, M. P. ([year]). Network-based analysis of semantic, phonological, and action fluency in Parkinson's disease on/off medication.
 
 Gallagher, R. J., Young, J.-G., & Welles, B. F. (2021). A clarified typology of core–periphery structure in networks. *Science Advances*, 7(12), eabc9800. https://doi.org/10.1126/sciadv.abc9800
 
 ## Authors
 
-Elena Herrera (Universidad de Oviedo, corresponding author), José Manuel Galán (Universidad de Burgos), Virginia Ahedo (Universidad de Burgos) and María Paz Suárez Coalla (Universidad de Oviedo). The code was written with AI assistants (Codex and Claude) under the supervision of J. M. Galán.
+Elena Herrera (Universidad de Oviedo, corresponding author), José Manuel Galán (Universidad de Burgos), Virginia Ahedo (Universidad de Burgos) and María Paz Suárez Coalla (Universidad de Oviedo).
