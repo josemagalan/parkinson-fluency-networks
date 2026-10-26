@@ -127,7 +127,7 @@ Code: [MIT](LICENSE). `vendor/core_periphery_sbm` keeps its Apache-2.0 licence. 
 
 ## Citation
 
-Herrera, E., Galán, J. M., Ahedo, V., & Suárez Coalla, M. P. ([year]). Network-based analysis of semantic, phonological, and action fluency in Parkinson's disease on/off medication.
+Herrera, E., Suárez Coalla, M. P., Ahedo, V. & Galán, J. M. ([year]). Network-based analysis of semantic, phonological, and action fluency in Parkinson's disease on/off medication.
 
 Gallagher, R. J., Young, J.-G., & Welles, B. F. (2021). A clarified typology of core–periphery structure in networks. *Science Advances*, 7(12), eabc9800. https://doi.org/10.1126/sciadv.abc9800
 
