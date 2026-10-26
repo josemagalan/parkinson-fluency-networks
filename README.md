@@ -133,4 +133,4 @@ Gallagher, R. J., Young, J.-G., & Welles, B. F. (2021). A clarified typology of 
 
 ## Authors
 
-Elena Herrera (Universidad de Oviedo, corresponding author), José Manuel Galán (Universidad de Burgos), Virginia Ahedo (Universidad de Burgos) and María Paz Suárez Coalla (Universidad de Oviedo).
+Elena Herrera (Universidad de Oviedo, corresponding author), María Paz Suárez Coalla (Universidad de Oviedo), Virginia Ahedo (Universidad de Burgos) and José Manuel Galán (Universidad de Burgos).
