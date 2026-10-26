@@ -2,3 +2,7 @@
 numpy==2.5.3
 scipy==1.18.1
 networkx==3.7
+# Script 50 (XGBoost, rotation forest, super learner). Versions of the reference run.
+pandas==3.0.5
+scikit-learn==1.9.1
+xgboost==3.4.1
