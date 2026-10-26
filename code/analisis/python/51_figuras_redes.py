@@ -472,8 +472,8 @@ def leyendas():
             "binary undirected version of each network.{extra} Layouts were computed with ForceAtlas2 "
             "(Jacomy et al., 2014) and "
             "drawn at a common scale within each row.")
-    extra_F = (" The sequence networks of the PD group (on and off) showed no supported core–periphery "
-               "structure and are shown in grey.")
+    extra_F = (" For the sequence networks of the PD group (on and off), no stable core–periphery partition "
+               "was obtained, and their nodes are shown in grey.")
     out = []
     for n, (nombre, tarea) in enumerate(FIGURAS, 1):
         t = tareas[tarea]
