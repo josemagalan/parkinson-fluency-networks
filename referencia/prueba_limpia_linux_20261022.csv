@@ -1,0 +1,256 @@
+fichero,estado,detalle
+01_datos_tidy/cobertura.csv,idéntico,
+01_datos_tidy/conteos.csv,idéntico,
+01_datos_tidy/dic_duplicados.csv,idéntico,
+01_datos_tidy/entradas_md5.csv,omitido,contiene rutas/huellas del entorno
+01_datos_tidy/incidencias.csv,idéntico,
+01_datos_tidy/limpieza.csv,idéntico,
+01_datos_tidy/tokens.csv,idéntico,
+01_datos_tidy/tokens.rds,binario distinto,esperable entre versiones de R/sistemas (ver ENTORNO.md)
+02_reproducir_R2/colisiones.csv,idéntico,
+02_reproducir_R2/comparacion.csv,igual (redondeo 1e-10),diferencias solo de coma flotante
+02_reproducir_R2/descriptivos.csv,idéntico,
+02_reproducir_R2/encoding_csv.csv,idéntico,
+02_reproducir_R2/entradas_md5.csv,omitido,contiene rutas/huellas del entorno
+02_reproducir_R2/etapas_merge.csv,idéntico,
+02_reproducir_R2/etapas_merge_mixto.csv,idéntico,
+02_reproducir_R2/filas.csv,idéntico,
+02_reproducir_R2/impacto.csv,igual (redondeo 1e-10),diferencias solo de coma flotante
+02_reproducir_R2/impacto_desc.csv,idéntico,
+02_reproducir_R2/inflacion.csv,idéntico,
+02_reproducir_R2/modelos.csv,igual (redondeo 1e-10),diferencias solo de coma flotante
+02_reproducir_R2/nodos_escenarios.rds,binario distinto,esperable entre versiones de R/sistemas (ver ENTORNO.md)
+02_reproducir_R2/precision.csv,igual (redondeo 1e-10),diferencias solo de coma flotante
+02_reproducir_R2/precision_desc.csv,idéntico,
+02_reproducir_R2/reparaciones.csv,idéntico,
+02_reproducir_R2/resumen.csv,idéntico,
+02_reproducir_R2/tabla2_antes_despues.csv,igual (redondeo 1e-10),diferencias solo de coma flotante
+02_reproducir_R2/tabla3_antes_despues.csv,igual (redondeo 1e-10),diferencias solo de coma flotante
+03_orden_sesiones/cruce_sesion.csv,idéntico,
+03_orden_sesiones/entradas_md5.csv,omitido,contiene rutas/huellas del entorno
+03_orden_sesiones/listas.csv,idéntico,
+03_orden_sesiones/orden_pacientes.csv,idéntico,
+03_orden_sesiones/resumen_orden.csv,idéntico,
+03_orden_sesiones/sesiones.csv,idéntico,
+03_orden_sesiones/tokens.csv,idéntico,
+03_orden_sesiones/tokens.rds,binario distinto,esperable entre versiones de R/sistemas (ver ENTORNO.md)
+03_orden_sesiones/validacion_ids.csv,idéntico,
+04_produccion_sesion/comparacion.csv,igual (redondeo 1e-10),diferencias solo de coma flotante
+04_produccion_sesion/conteos.csv,idéntico,
+04_produccion_sesion/delta_secuencia.csv,idéntico,
+04_produccion_sesion/descriptivos.csv,idéntico,
+04_produccion_sesion/diagnosticos.csv,idéntico,
+04_produccion_sesion/diagnosticos.png,binario distinto,esperable entre versiones de R/sistemas (ver ENTORNO.md)
+04_produccion_sesion/diferencias.csv,idéntico,
+04_produccion_sesion/entradas_md5.csv,omitido,contiene rutas/huellas del entorno
+04_produccion_sesion/hc3.csv,idéntico,
+04_produccion_sesion/loo.csv,igual (redondeo 1e-10),diferencias solo de coma flotante
+04_produccion_sesion/modelos.rds,binario distinto,esperable entre versiones de R/sistemas (ver ENTORNO.md)
+04_produccion_sesion/por_secuencia.csv,idéntico,
+04_produccion_sesion/produccion_y_sesion.png,binario distinto,esperable entre versiones de R/sistemas (ver ENTORNO.md)
+04_produccion_sesion/produccion_y_sesion.svg,binario distinto,esperable entre versiones de R/sistemas (ver ENTORNO.md)
+04_produccion_sesion/rango.csv,idéntico,
+04_produccion_sesion/residuos.csv,idéntico,
+04_produccion_sesion/resultados.csv,idéntico,
+04_produccion_sesion/sin_ajuste.csv,idéntico,
+05_redes_igualadas_preparacion/comparacion.csv,idéntico,
+05_redes_igualadas_preparacion/configuracion_rarefaccion.rds,binario distinto,esperable entre versiones de R/sistemas (ver ENTORNO.md)
+05_redes_igualadas_preparacion/deltas_mc.csv,idéntico,
+05_redes_igualadas_preparacion/entradas_md5.csv,omitido,contiene rutas/huellas del entorno
+05_redes_igualadas_preparacion/full_metrics.csv,idéntico,
+05_redes_igualadas_preparacion/graphml_completos/F_HC_directed.graphml,idéntico,salvo fin de línea CRLF/LF
+05_redes_igualadas_preparacion/graphml_completos/F_HC_undirected.graphml,idéntico,salvo fin de línea CRLF/LF
+05_redes_igualadas_preparacion/graphml_completos/F_OFF_directed.graphml,idéntico,salvo fin de línea CRLF/LF
+05_redes_igualadas_preparacion/graphml_completos/F_OFF_undirected.graphml,idéntico,salvo fin de línea CRLF/LF
+05_redes_igualadas_preparacion/graphml_completos/F_ON_directed.graphml,idéntico,salvo fin de línea CRLF/LF
+05_redes_igualadas_preparacion/graphml_completos/F_ON_undirected.graphml,idéntico,salvo fin de línea CRLF/LF
+05_redes_igualadas_preparacion/graphml_completos/actions_HC_directed.graphml,idéntico,salvo fin de línea CRLF/LF
+05_redes_igualadas_preparacion/graphml_completos/actions_HC_undirected.graphml,idéntico,salvo fin de línea CRLF/LF
+05_redes_igualadas_preparacion/graphml_completos/actions_OFF_directed.graphml,idéntico,salvo fin de línea CRLF/LF
+05_redes_igualadas_preparacion/graphml_completos/actions_OFF_undirected.graphml,idéntico,salvo fin de línea CRLF/LF
+05_redes_igualadas_preparacion/graphml_completos/actions_ON_directed.graphml,idéntico,salvo fin de línea CRLF/LF
+05_redes_igualadas_preparacion/graphml_completos/actions_ON_undirected.graphml,idéntico,salvo fin de línea CRLF/LF
+05_redes_igualadas_preparacion/graphml_completos/animals_HC_directed.graphml,idéntico,salvo fin de línea CRLF/LF
+05_redes_igualadas_preparacion/graphml_completos/animals_HC_undirected.graphml,idéntico,salvo fin de línea CRLF/LF
+05_redes_igualadas_preparacion/graphml_completos/animals_OFF_directed.graphml,idéntico,salvo fin de línea CRLF/LF
+05_redes_igualadas_preparacion/graphml_completos/animals_OFF_undirected.graphml,idéntico,salvo fin de línea CRLF/LF
+05_redes_igualadas_preparacion/graphml_completos/animals_ON_directed.graphml,idéntico,salvo fin de línea CRLF/LF
+05_redes_igualadas_preparacion/graphml_completos/animals_ON_undirected.graphml,idéntico,salvo fin de línea CRLF/LF
+05_redes_igualadas_preparacion/graphml_igualados_ejemplo_1/F_OFF_directed.graphml,idéntico,salvo fin de línea CRLF/LF
+05_redes_igualadas_preparacion/graphml_igualados_ejemplo_1/F_OFF_undirected.graphml,idéntico,salvo fin de línea CRLF/LF
+05_redes_igualadas_preparacion/graphml_igualados_ejemplo_1/F_ON_directed.graphml,idéntico,salvo fin de línea CRLF/LF
+05_redes_igualadas_preparacion/graphml_igualados_ejemplo_1/F_ON_undirected.graphml,idéntico,salvo fin de línea CRLF/LF
+05_redes_igualadas_preparacion/graphml_igualados_ejemplo_1/actions_OFF_directed.graphml,idéntico,salvo fin de línea CRLF/LF
+05_redes_igualadas_preparacion/graphml_igualados_ejemplo_1/actions_OFF_undirected.graphml,idéntico,salvo fin de línea CRLF/LF
+05_redes_igualadas_preparacion/graphml_igualados_ejemplo_1/actions_ON_directed.graphml,idéntico,salvo fin de línea CRLF/LF
+05_redes_igualadas_preparacion/graphml_igualados_ejemplo_1/actions_ON_undirected.graphml,idéntico,salvo fin de línea CRLF/LF
+05_redes_igualadas_preparacion/graphml_igualados_ejemplo_1/animals_OFF_directed.graphml,idéntico,salvo fin de línea CRLF/LF
+05_redes_igualadas_preparacion/graphml_igualados_ejemplo_1/animals_OFF_undirected.graphml,idéntico,salvo fin de línea CRLF/LF
+05_redes_igualadas_preparacion/graphml_igualados_ejemplo_1/animals_ON_directed.graphml,idéntico,salvo fin de línea CRLF/LF
+05_redes_igualadas_preparacion/graphml_igualados_ejemplo_1/animals_ON_undirected.graphml,idéntico,salvo fin de línea CRLF/LF
+05_redes_igualadas_preparacion/presupuesto.csv,idéntico,
+05_redes_igualadas_preparacion/repeticiones.csv,idéntico,
+05_redes_igualadas_preparacion/resumen_mc.csv,idéntico,
+05_redes_igualadas_preparacion/resumen_presupuesto.csv,idéntico,
+05_redes_igualadas_preparacion/simulaciones.csv,idéntico,
+06_psicolinguistica_sesion/comparacion.csv,idéntico,
+06_psicolinguistica_sesion/cuentas.csv,idéntico,
+06_psicolinguistica_sesion/descriptivos.csv,idéntico,
+06_psicolinguistica_sesion/entradas_md5.csv,omitido,contiene rutas/huellas del entorno
+06_psicolinguistica_sesion/incompletos.csv,idéntico,
+06_psicolinguistica_sesion/medias.csv,idéntico,
+06_psicolinguistica_sesion/modelos.rds,binario distinto,esperable entre versiones de R/sistemas (ver ENTORNO.md)
+06_psicolinguistica_sesion/pares.csv,idéntico,
+06_psicolinguistica_sesion/psicolinguistica_ON_OFF.png,binario distinto,esperable entre versiones de R/sistemas (ver ENTORNO.md)
+06_psicolinguistica_sesion/psicolinguistica_ON_OFF.svg,binario distinto,esperable entre versiones de R/sistemas (ver ENTORNO.md)
+06_psicolinguistica_sesion/resultados.csv,idéntico,
+06_psicolinguistica_sesion/sensibilidades.csv,idéntico,
+07_redes_HC_bootstrap/entradas_md5.csv,omitido,contiene rutas/huellas del entorno
+07_redes_HC_bootstrap/plan_personas.rds,binario distinto,esperable entre versiones de R/sistemas (ver ENTORNO.md)
+07_redes_HC_bootstrap/presupuestos.csv,idéntico,
+07_redes_HC_bootstrap/resumen.csv,idéntico,
+07_redes_HC_bootstrap/sesgo.csv,idéntico,
+07_redes_HC_bootstrap/sesgo_grupos.csv,idéntico,
+07_redes_HC_bootstrap/simulaciones.rds,binario distinto,esperable entre versiones de R/sistemas (ver ENTORNO.md)
+08_auditoria_ML/caracteristicas.csv,idéntico,
+08_auditoria_ML/entradas_md5.csv,omitido,contiene rutas/huellas del entorno
+08_auditoria_ML/faltantes.csv,idéntico,
+08_auditoria_ML/folds.csv,idéntico,
+08_auditoria_ML/fuga.csv,idéntico,
+08_auditoria_ML/inventario.csv,idéntico,
+08_auditoria_ML/mapas.csv,idéntico,
+08_auditoria_ML/validacion.csv,idéntico,
+09_auditoria_secuencia/entradas_md5.csv,omitido,contiene rutas/huellas del entorno
+09_auditoria_secuencia/figura4_R2_extraida.png,omitido,extraída aparte del .docx R2; no la genera el script 09
+09_auditoria_secuencia/mapping.csv,idéntico,
+09_auditoria_secuencia/por_lista.csv,idéntico,
+09_auditoria_secuencia/resumen.csv,idéntico,
+10_perfiles_posicion_corregidos/entradas_md5.csv,omitido,contiene rutas/huellas del entorno
+10_perfiles_posicion_corregidos/figura4_posicion_corregida.png,binario distinto,esperable entre versiones de R/sistemas (ver ENTORNO.md)
+10_perfiles_posicion_corregidos/figura4_posicion_corregida.svg,binario distinto,esperable entre versiones de R/sistemas (ver ENTORNO.md)
+10_perfiles_posicion_corregidos/n_por_posicion.csv,idéntico,
+10_perfiles_posicion_corregidos/perfiles.csv,idéntico,
+11_HC_primera_sesion_influencia/entradas_md5.csv,omitido,contiene rutas/huellas del entorno
+11_HC_primera_sesion_influencia/hc.csv,igual (redondeo 1e-10),diferencias solo de coma flotante
+11_HC_primera_sesion_influencia/loo.csv,idéntico,
+11_HC_primera_sesion_influencia/loo_resumen.csv,idéntico,
+12_permutacion_secuencia_sensibilidad/entradas_md5.csv,omitido,contiene rutas/huellas del entorno
+12_permutacion_secuencia_sensibilidad/permutaciones.rds,binario distinto,esperable entre versiones de R/sistemas (ver ENTORNO.md)
+12_permutacion_secuencia_sensibilidad/resultados.csv,idéntico,
+13_auditoria_metricas_historicas/comparacion.csv,idéntico,
+13_auditoria_metricas_historicas/distancias_pesos.csv,idéntico,
+13_auditoria_metricas_historicas/entradas_md5.csv,omitido,contiene rutas/huellas del entorno
+14_preparar_entrada_SBM/colisiones.csv,idéntico,
+14_preparar_entrada_SBM/edges.csv,idéntico,
+14_preparar_entrada_SBM/entradas_md5.csv,omitido,contiene rutas/huellas del entorno
+14_preparar_entrada_SBM/graphml/F_HC_directed.graphml,idéntico,salvo fin de línea CRLF/LF
+14_preparar_entrada_SBM/graphml/F_HC_undirected.graphml,idéntico,salvo fin de línea CRLF/LF
+14_preparar_entrada_SBM/graphml/F_OFF_directed.graphml,idéntico,salvo fin de línea CRLF/LF
+14_preparar_entrada_SBM/graphml/F_OFF_undirected.graphml,idéntico,salvo fin de línea CRLF/LF
+14_preparar_entrada_SBM/graphml/F_ON_directed.graphml,idéntico,salvo fin de línea CRLF/LF
+14_preparar_entrada_SBM/graphml/F_ON_undirected.graphml,idéntico,salvo fin de línea CRLF/LF
+14_preparar_entrada_SBM/graphml/actions_HC_directed.graphml,idéntico,salvo fin de línea CRLF/LF
+14_preparar_entrada_SBM/graphml/actions_HC_undirected.graphml,idéntico,salvo fin de línea CRLF/LF
+14_preparar_entrada_SBM/graphml/actions_OFF_directed.graphml,idéntico,salvo fin de línea CRLF/LF
+14_preparar_entrada_SBM/graphml/actions_OFF_undirected.graphml,idéntico,salvo fin de línea CRLF/LF
+14_preparar_entrada_SBM/graphml/actions_ON_directed.graphml,idéntico,salvo fin de línea CRLF/LF
+14_preparar_entrada_SBM/graphml/actions_ON_undirected.graphml,idéntico,salvo fin de línea CRLF/LF
+14_preparar_entrada_SBM/graphml/animals_HC_directed.graphml,idéntico,salvo fin de línea CRLF/LF
+14_preparar_entrada_SBM/graphml/animals_HC_undirected.graphml,idéntico,salvo fin de línea CRLF/LF
+14_preparar_entrada_SBM/graphml/animals_OFF_directed.graphml,idéntico,salvo fin de línea CRLF/LF
+14_preparar_entrada_SBM/graphml/animals_OFF_undirected.graphml,idéntico,salvo fin de línea CRLF/LF
+14_preparar_entrada_SBM/graphml/animals_ON_directed.graphml,idéntico,salvo fin de línea CRLF/LF
+14_preparar_entrada_SBM/graphml/animals_ON_undirected.graphml,idéntico,salvo fin de línea CRLF/LF
+14_preparar_entrada_SBM/index.csv,idéntico,
+14_preparar_entrada_SBM/mapa_historico.csv,idéntico,
+14_preparar_entrada_SBM/nodes.csv,idéntico,
+15_ML_agrupado/baseline.csv,idéntico,
+15_ML_agrupado/confusion.csv,idéntico,
+15_ML_agrupado/entradas_md5.csv,omitido,contiene rutas/huellas del entorno
+15_ML_agrupado/features.csv,igual (redondeo 1e-10),diferencias solo de coma flotante
+15_ML_agrupado/null.csv,idéntico,
+15_ML_agrupado/permutation_tests.csv,idéntico,
+15_ML_agrupado/planes.rds,binario distinto,esperable entre versiones de R/sistemas (ver ENTORNO.md)
+15_ML_agrupado/predictions.csv,igual (redondeo 1e-10),diferencias solo de coma flotante
+15_ML_agrupado/repeated.csv,idéntico,
+15_ML_agrupado/summary.csv,idéntico,
+16_verificacion_integrada/comprobaciones.csv,omitido,el nº de huellas depende de los outputs presentes; 16 se detiene si alguna de sus 60 comprobaciones falla
+16_verificacion_integrada/entradas_md5.csv,omitido,contiene rutas/huellas del entorno
+16_verificacion_integrada/huellas.csv,omitido,huellas de manifiestos de la máquina que ejecuta
+17_replica_SBM_historico/comparacion_cadenas.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/consenso.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/entradas_md5.csv,omitido,contiene rutas/huellas del entorno
+17_replica_SBM_historico/exploracion_configuracion/Acciones_directedcontrol_previous_10N/comparacion_cadenas.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/Acciones_directedcontrol_previous_10N/consenso.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/Acciones_directedcontrol_previous_10N/entradas_md5.csv,omitido,contiene rutas/huellas del entorno
+17_replica_SBM_historico/exploracion_configuracion/Acciones_directedcontrol_previous_10N/mdl_modelos.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/Acciones_directedcontrol_previous_10N/particiones_cadenas.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/Acciones_directedcontrol_previous_10N/redes.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/Acciones_directedcontrol_previous_10N/resumen_hubspoke.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/Acciones_directedcontrol_previous_50N/comparacion_cadenas.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/Acciones_directedcontrol_previous_50N/consenso.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/Acciones_directedcontrol_previous_50N/entradas_md5.csv,omitido,contiene rutas/huellas del entorno
+17_replica_SBM_historico/exploracion_configuracion/Acciones_directedcontrol_previous_50N/mdl_modelos.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/Acciones_directedcontrol_previous_50N/particiones_cadenas.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/Acciones_directedcontrol_previous_50N/redes.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/Acciones_directedcontrol_previous_50N/resumen_hubspoke.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/Acciones_directedcontrol_random_50N/comparacion_cadenas.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/Acciones_directedcontrol_random_50N/consenso.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/Acciones_directedcontrol_random_50N/entradas_md5.csv,omitido,contiene rutas/huellas del entorno
+17_replica_SBM_historico/exploracion_configuracion/Acciones_directedcontrol_random_50N/mdl_modelos.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/Acciones_directedcontrol_random_50N/particiones_cadenas.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/Acciones_directedcontrol_random_50N/redes.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/Acciones_directedcontrol_random_50N/resumen_hubspoke.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/Fpalabra_directedoff_previous_10N/comparacion_cadenas.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/Fpalabra_directedoff_previous_10N/consenso.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/Fpalabra_directedoff_previous_10N/entradas_md5.csv,omitido,contiene rutas/huellas del entorno
+17_replica_SBM_historico/exploracion_configuracion/Fpalabra_directedoff_previous_10N/mdl_modelos.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/Fpalabra_directedoff_previous_10N/particiones_cadenas.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/Fpalabra_directedoff_previous_10N/redes.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/Fpalabra_directedoff_previous_10N/resumen_hubspoke.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/Fpalabra_directedoff_previous_50N/comparacion_cadenas.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/Fpalabra_directedoff_previous_50N/consenso.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/Fpalabra_directedoff_previous_50N/entradas_md5.csv,omitido,contiene rutas/huellas del entorno
+17_replica_SBM_historico/exploracion_configuracion/Fpalabra_directedoff_previous_50N/mdl_modelos.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/Fpalabra_directedoff_previous_50N/particiones_cadenas.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/Fpalabra_directedoff_previous_50N/redes.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/Fpalabra_directedoff_previous_50N/resumen_hubspoke.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/Fpalabra_directedoff_random_50N/comparacion_cadenas.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/Fpalabra_directedoff_random_50N/consenso.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/Fpalabra_directedoff_random_50N/entradas_md5.csv,omitido,contiene rutas/huellas del entorno
+17_replica_SBM_historico/exploracion_configuracion/Fpalabra_directedoff_random_50N/mdl_modelos.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/Fpalabra_directedoff_random_50N/particiones_cadenas.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/Fpalabra_directedoff_random_50N/redes.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/Fpalabra_directedoff_random_50N/resumen_hubspoke.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/graphAnimalesoff_previous_10N/comparacion_cadenas.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/graphAnimalesoff_previous_10N/consenso.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/graphAnimalesoff_previous_10N/entradas_md5.csv,omitido,contiene rutas/huellas del entorno
+17_replica_SBM_historico/exploracion_configuracion/graphAnimalesoff_previous_10N/mdl_modelos.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/graphAnimalesoff_previous_10N/particiones_cadenas.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/graphAnimalesoff_previous_10N/redes.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/graphAnimalesoff_previous_10N/resumen_hubspoke.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/graphAnimalesoff_previous_50N/comparacion_cadenas.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/graphAnimalesoff_previous_50N/consenso.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/graphAnimalesoff_previous_50N/entradas_md5.csv,omitido,contiene rutas/huellas del entorno
+17_replica_SBM_historico/exploracion_configuracion/graphAnimalesoff_previous_50N/mdl_modelos.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/graphAnimalesoff_previous_50N/particiones_cadenas.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/graphAnimalesoff_previous_50N/redes.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/graphAnimalesoff_previous_50N/resumen_hubspoke.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/graphAnimalesoff_random_50N/comparacion_cadenas.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/graphAnimalesoff_random_50N/consenso.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/graphAnimalesoff_random_50N/entradas_md5.csv,omitido,contiene rutas/huellas del entorno
+17_replica_SBM_historico/exploracion_configuracion/graphAnimalesoff_random_50N/mdl_modelos.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/graphAnimalesoff_random_50N/particiones_cadenas.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/graphAnimalesoff_random_50N/redes.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/exploracion_configuracion/graphAnimalesoff_random_50N/resumen_hubspoke.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/mdl_modelos.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/particiones_cadenas.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/redes.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/resumen_hubspoke.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/sensibilidad_capas_5_6_AccionesOFF/comparacion_cadenas.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/sensibilidad_capas_5_6_AccionesOFF/consenso.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/sensibilidad_capas_5_6_AccionesOFF/entradas_md5.csv,omitido,contiene rutas/huellas del entorno
+17_replica_SBM_historico/sensibilidad_capas_5_6_AccionesOFF/mdl_modelos.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/sensibilidad_capas_5_6_AccionesOFF/particiones_cadenas.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/sensibilidad_capas_5_6_AccionesOFF/redes.csv,no ejecutado,no existe la carpeta de este script
+17_replica_SBM_historico/sensibilidad_capas_5_6_AccionesOFF/resumen_hubspoke.csv,no ejecutado,no existe la carpeta de este script

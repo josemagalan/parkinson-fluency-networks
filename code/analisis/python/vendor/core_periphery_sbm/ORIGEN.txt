@@ -1,0 +1,1 @@
+Origen: https://github.com/ryanjgallagher/core_periphery_sbm commit 90fb2896172d0489490c3574b4761af7e7f778f9 (2021-11-15). Copia sin modificar, licencia Apache-2.0.
