@@ -9,7 +9,7 @@ What the code does:
 3. **Networks.** It builds co-occurrence and sequence networks for each group and task, both raw and matched for word output (participant-level bootstrap and permutations).
 4. **Core–periphery structure.** It fits Bayesian core–periphery stochastic block models (SBM; Gallagher et al., 2021) and estimates the lexical comparisons of Table 2 with linear mixed models, plus robustness and sensitivity checks.
 5. **Classification.** It evaluates logistic regression (L2-penalised), random forest, XGBoost, rotation forest, a super learner and TabPFN v2 with leave-one-participant-out cross-validation.
-6. **Serial position.** It produces the psycholinguistic profiles by response position (Figure 4).
+6. **Figures.** It draws the co-occurrence and sequence networks coloured by core–periphery partition (Figures 1–3) and the psycholinguistic profiles by response position (Figure 4).
 
 The raw data are read from the authors' original processing pipeline. Some scripts also reproduce and audit that pipeline. The data are **not** included .
 
@@ -20,7 +20,7 @@ The raw data are read from the authors' original processing pipeline. Some scrip
 ├── README.md  LICENSE  DATOS.md  ENTORNO.md     (DATOS/ENTORNO: detailed notes, in Spanish)
 ├── ejecutar_todo.sh  ejecutar_todo.ps1         run the main pipeline (01–22) in order
 ├── paquetes_R.csv  renv.lock                   R package versions
-├── requirements-python.txt                     Python packages for the SBM (17, 19, 46) and classification (50)
+├── requirements-python.txt                     Python packages for the SBM (17, 19, 46), classification (50) and Figures 1–3 (51)
 ├── requirements-tabpfn-v2-lock.txt             TabPFN v2 environment (41)
 ├── MANIFEST.csv                                md5 of every code file (generated)
 ├── datos_entrada_md5.csv                       input files the scripts expect, with md5
@@ -30,7 +30,7 @@ The raw data are read from the authors' original processing pipeline. Some scrip
     ├── analisis/R/                             R scripts (00_* helpers, 01–48)
     ├── analisis/python/                        Python scripts (00a–00c, 17, 19, 41, 42, 46, 49, 50, 98, 99)
     │   └── vendor/core_periphery_sbm/          Gallagher et al. library, commit 90fb289 (Apache-2.0)
-    ├── notas/                                  pre-registered TabPFN protocol read by script 41
+    ├── notas/                                  TabPFN protocol (dated before the run) read by script 41
     └── analisis/output/                        created when the scripts run (not versioned)
 ```
 
@@ -39,7 +39,7 @@ All scripts use paths relative to `code/` and read the input data from `../parki
 ## Requirements
 
 - **R 4.5.2** (reference run on Windows 11; Linux checks used R 4.3.3) with the versions in `paquetes_R.csv` (`renv::restore()`). The code needs igraph ≥ 2.0 and dplyr ≥ 1.1, plus `nlme` (21, 22, 45, 47, 48), `clubSandwich` ≥ 0.5.6 (45), `randomForest` and `nnet` (15), and `ggplot2` and `svglite` (figures).
-- **Python 3.13** with numpy, scipy and networkx (`requirements-python.txt`) for the SBM, plus pandas, scikit-learn and xgboost for script 50. The SBM library is vendored because it is not on PyPI.
+- **Python 3.13** with numpy, scipy and networkx (`requirements-python.txt`) for the SBM, plus pandas, scikit-learn and xgboost for script 50, and matplotlib for script 51. The SBM library is vendored because it is not on PyPI.
 - Linux needs `LANG=C.UTF-8` and `LC_COLLATE=C`; `ejecutar_todo.sh` sets both. On Windows the scripts set `LC_CTYPE` themselves.
 - **TabPFN v2** (41): a separate Python 3.12 environment with a CUDA GPU. See `ENTORNO.md`.
 
@@ -65,7 +65,7 @@ Then run the remaining scripts by hand:
 
 1. **Second run of 04, 20 and 21.** Scripts 45, 47, 48 and 49 read the `_v2` output folders of 04, 20 and 21 (the reference runs). Running 04, 20 and 21 a second time creates them.
 2. **46 → 47 → 48 → 45 → 49.**
-3. **30** (Figure 4).
+3. **30** (Figure 4) and **51** (Figures 1–3; reads the outputs of 14, 18 and 19, about 5 min).
 4. **40 → 42 → 41 → 43** (TabPFN v2; needs the separate environment above).
 5. **50** (XGBoost, rotation forest and super learner; reads the outputs of 15, 40 and 41 and summarises the six classifiers).
 6. Optional: 31, 32 and 44 compare runs across platforms and with earlier tables. They need folders that are not distributed.
@@ -98,6 +98,7 @@ Then run the remaining scripts by hand:
 | `48_gradiente_por_grupo` | Periphery−core gradient within each group | Results |
 | `python/49_multiplicidad_holm_bonferroni` | Holm and Bonferroni adjustment compared with Benjamini–Hochberg | Sensitivity |
 | `30_figura4_estilo_R2` | Psycholinguistic ratings by response position | Figure 4 |
+| `python/51_figuras_redes` | Network drawings (ForceAtlas2 layout, label adjustment) coloured by the consensus partitions of 19 | Figures 1–3 |
 | `40`, `python/42`, `python/41`, `43` | TabPFN v2 classification (fixed configuration, no tuning) | Results; supplementary material |
 | `python/50_ML_algoritmos_R2` | XGBoost, rotation forest and super learner with the folds and bootstrap plans of 15; summary of the six classifiers | Results; supplementary material |
 | `python/98`, `python/99` | Output comparison with the reference; repository export | — |

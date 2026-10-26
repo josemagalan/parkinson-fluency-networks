@@ -42,7 +42,8 @@ code/analisis/python/41_TabPFN_v2.py,22136,4396afea200ae065feb23381b92d2b45
 code/analisis/python/42_descargar_pesos_TabPFN.py,3632,f4fcb96859ff35710112e12558bbb835
 code/analisis/python/46_SBM_F_secuencia_cadenas.py,8922,097e6ea1bec559806e0f901a6ca539f4
 code/analisis/python/49_multiplicidad_holm_bonferroni.py,7037,b2c5d96751321988467592b9dfef0501
-code/analisis/python/50_ML_algoritmos_R2.py,20335,e5a666e85c9392ae9dd0d5a2e882dc71
+code/analisis/python/50_ML_algoritmos_R2.py,21982,515b038fd5618828229d7241fa93d3c9
+code/analisis/python/51_figuras_redes.py,25725,afc56fcaaf572aa6017011b93a5ba36c
 code/analisis/python/98_comparar_outputs.py,8675,f4a6c8e190c0dfc6ad3fbc457d3ffdec
 code/analisis/python/99_exportar_repositorio.py,6022,e26b94d38e8de327e30b0fe9b21ea8b9
 code/analisis/python/vendor/core_periphery_sbm/LICENSE,11357,86d3f3a95c324c9479bd8986968f4327

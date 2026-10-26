@@ -8,10 +8,13 @@ IC bootstrap de las seis familias de modelos, diferencias emparejadas frente a l
 Python >= 3.10: numpy, pandas, scipy, scikit-learn, xgboost (versiones en entorno.txt).
 Ejecución desde revision_R3/: python -I analisis/python/50_ML_algoritmos_R2.py
 Configuraciones fijas antes de ver resultados; sin tuning ni selección por rendimiento.
+Versión 2 (26-10-2026): el super learner reaprende el preprocesado dentro de su CV interna (antes se
+aprendía una sola vez en el train externo). XGBoost y rotation forest no cambian. Salida _v2.
 --- English ---
 Purpose (E3): evaluate the classifiers of the previous version (XGBoost, rotation forest and super learner)
 with participant-grouped validation, using exactly the data, predictor panels, folds and bootstrap plans of
 scripts 15/40/41. Fixed configurations, no tuning. Outputs: analisis/output/50_ML_algoritmos_R2[_vN]/.
+v2: the super learner refits preprocessing within each inner training fold used to estimate its weights.
 """
 from __future__ import annotations
 
@@ -66,6 +69,13 @@ def prepare(X, train, test):
     mu, sd = a.mean(axis=0), a.std(axis=0, ddof=1)
     sd[~np.isfinite(sd) | (sd == 0)] = 1
     return (a - mu) / sd, (b - mu) / sd, keep
+
+
+def prepare_pair(x_train, x_test):
+    """prepare() para dos matrices separadas (train y test sin preparar)."""
+    n = len(x_train)
+    a, b, keep = prepare(np.vstack([x_train, x_test]), np.arange(n), np.arange(n, n + len(x_test)))
+    return a, b, keep
 
 
 def scores(truth, predicted, weights=None):
@@ -183,7 +193,12 @@ def inner_folds(groups, cohort, k, rng):
 class SuperLearner:
     """Super learner (van der Laan, Polley & Hubbard, 2007): combinación convexa de las probabilidades
     de los modelos base y de la proporción de clases, con pesos que minimizan la log-verosimilitud
-    negativa en una validación cruzada interna de 5 folds agrupada por persona dentro del train."""
+    negativa en una validación cruzada interna de 5 folds agrupada por persona dentro del train.
+
+    Versión 2 (26-10-2026, revisión de Codex): recibe el train SIN preparar y reaprende el
+    preprocesado (constantes, mediana, media y DE) dentro de cada train interno, de modo que las
+    predicciones con las que se estiman los pesos no usan estadísticos del fold interno de prueba.
+    Los modelos finales se ajustan con el preprocesado del train externo completo, como antes."""
 
     def __init__(self, seed=0, k=5):
         self.seed, self.k = seed, k
@@ -200,8 +215,9 @@ class SuperLearner:
             te, tr = f == j, f != j
             if len(np.unique(y[tr])) < len(self.classes_) or not te.any():
                 continue
+            a, b, _ = prepare(x, np.flatnonzero(tr), np.flatnonzero(te))
             for m, (nm, fit) in enumerate(libs.items()):
-                Z[te, :, m] = proba(fit(x[tr], y[tr]), x[te], self.classes_)
+                Z[te, :, m] = proba(fit(a, y[tr]), b, self.classes_)
             prior = np.array([np.mean(y[tr] == c) for c in self.classes_])
             Z[te, :, -1] = prior
         Y = (y[:, None] == self.classes_[None, :]).astype(float)
@@ -214,12 +230,19 @@ class SuperLearner:
                        options={"xatol": 1e-8, "fatol": 1e-10, "maxiter": 20000})
         w = np.exp(res.x - res.x.max()); self.weights = w / w.sum()
         self.names = names
-        self.models = {nm: fit(x, y) for nm, fit in libs.items()}
+        self.x_raw = x
+        self.models = None                       # se ajustan en predict_proba con el train preparado
         self.prior = np.array([np.mean(y == c) for c in self.classes_])
+        self.y = y
         return self
 
     def predict_proba(self, z):
-        ps = [proba(self.models[nm], z, self.classes_) for nm in self.names[:-1]]
+        """z sin preparar: se prepara con los estadísticos del train externo completo."""
+        a, b, _ = prepare_pair(self.x_raw, z)
+        if self.models is None:
+            libs = base_learners(self.seed)
+            self.models = {nm: fit(a, self.y) for nm, fit in libs.items()}
+        ps = [proba(self.models[nm], b, self.classes_) for nm in self.names[:-1]]
         ps.append(np.tile(self.prior, (z.shape[0], 1)))
         return np.tensordot(np.stack(ps, axis=2), self.weights, axes=([2], [0]))
 
@@ -251,6 +274,8 @@ def predict_cv(dat, cols, folds, endpoint, panel, algorithm, seed):
         assert set(y[train]) == set(y)
         a, b, keep = prepare(X, train, test)
         s = seed + int(fold)
+        if algorithm == "super_learner":                 # v2: recibe los datos sin preparar
+            a, b = X[train], X[test]
         classes, prob, w = fit_predict(algorithm, a, y[train], b, s, groups[train])
         assert np.isfinite(prob).all() and np.allclose(prob.sum(axis=1), 1, atol=1e-6)
         pred = classes[prob.argmax(axis=1)]
@@ -380,6 +405,7 @@ def main():
              "  grupos de 3 variables, PCA sobre bootstrap del 75 % de un subconjunto aleatorio de clases; árbol con entropía).",
              "Super learner (van der Laan et al., 2007): pesos convexos que minimizan la log-verosimilitud en CV interna de",
              "  5 folds por persona dentro de cada train; biblioteca: logística L2, random forest, XGBoost y proporción de clases.",
+             "  v2 (26-10-2026): el preprocesado se reaprende dentro de cada train interno de esa CV (antes, una vez en el train externo).",
              "La regresión logística es la multinomial con penalización L2 de 15: sin penalización no es estimable con 107 predictores.",
              "summary_all_algorithms.csv reúne los seis modelos (15, 41 y 50) con los mismos planes bootstrap; 15 se reproduce exactamente.",
              "Intervalos condicionados a las predicciones OOF; no hay nuevos p ni permutaciones para estos modelos.",
